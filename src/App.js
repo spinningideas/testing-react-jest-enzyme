@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Account from './Account';
+import User from './User';
 
 function App() {
   const [appState, setAppState] = useState({
@@ -31,7 +31,7 @@ function App() {
         {appState.error ? <p>{appState.error.message}</p> : null}
         {!appState.isLoading ? (
           appState.users.map((user) => {
-            return <Account key={user.username} user={user} />;
+            return <User key={user.username} user={user} />;
           })
         ) : (
           <h3>Fetching Users...</h3>

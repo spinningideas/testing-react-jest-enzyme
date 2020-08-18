@@ -1,8 +1,7 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
-import Account from './Account';
 import App from './App';
-import toJson from 'enzyme-to-json';
+import User from './User';
 
 it('renders without crashing', () => {
   shallow(<App />);
@@ -20,15 +19,15 @@ const user = {
   username: 'john.smith'
 };
 
-describe('<Account />', () => {
-  it('contains account', () => {
-    const wrapper = mount(<Account user={user} />);
+describe('<User />', () => {
+  it('contains user', () => {
+    const wrapper = mount(<User user={user} />);
     const value = wrapper.find('p').text();
     expect(value).toEqual(user.email);
   });
 
-  it('accepts user account props', () => {
-    const wrapper = mount(<Account user={user} />);
+  it('accepts user props', () => {
+    const wrapper = mount(<User user={user} />);
     expect(wrapper.props().user).toEqual(user);
   });
 });

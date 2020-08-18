@@ -6,7 +6,7 @@ const style = {
   borderBottom: '1px solid #ccc'
 };
 
-const Account = ({ user }) => {
+const User = ({ user }) => {
   return (
     <div key={user.username} style={style}>
       <h4>{user.name}</h4>
@@ -15,4 +15,4 @@ const Account = ({ user }) => {
   );
 };
 
-export default Account;
+export default User;
