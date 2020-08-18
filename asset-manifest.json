@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "https://spinningideas.github.io/testing-react-jest-enzyme/static/css/main.8bde5e94.chunk.css",
+    "main.js": "https://spinningideas.github.io/testing-react-jest-enzyme/static/js/main.47945ec0.chunk.js",
+    "main.js.map": "https://spinningideas.github.io/testing-react-jest-enzyme/static/js/main.47945ec0.chunk.js.map",
+    "runtime-main.js": "https://spinningideas.github.io/testing-react-jest-enzyme/static/js/runtime-main.7b3dd61f.js",
+    "runtime-main.js.map": "https://spinningideas.github.io/testing-react-jest-enzyme/static/js/runtime-main.7b3dd61f.js.map",
+    "static/css/2.3c03f26f.chunk.css": "https://spinningideas.github.io/testing-react-jest-enzyme/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.e7276477.chunk.js": "https://spinningideas.github.io/testing-react-jest-enzyme/static/js/2.e7276477.chunk.js",
+    "static/js/2.e7276477.chunk.js.map": "https://spinningideas.github.io/testing-react-jest-enzyme/static/js/2.e7276477.chunk.js.map",
+    "index.html": "https://spinningideas.github.io/testing-react-jest-enzyme/index.html",
+    "precache-manifest.9c353da1e95046cb4899fe9d38b0ce2a.js": "https://spinningideas.github.io/testing-react-jest-enzyme/precache-manifest.9c353da1e95046cb4899fe9d38b0ce2a.js",
+    "service-worker.js": "https://spinningideas.github.io/testing-react-jest-enzyme/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "https://spinningideas.github.io/testing-react-jest-enzyme/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.8bde5e94.chunk.css.map": "https://spinningideas.github.io/testing-react-jest-enzyme/static/css/main.8bde5e94.chunk.css.map",
+    "static/js/2.e7276477.chunk.js.LICENSE.txt": "https://spinningideas.github.io/testing-react-jest-enzyme/static/js/2.e7276477.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b3dd61f.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.e7276477.chunk.js",
+    "static/css/main.8bde5e94.chunk.css",
+    "static/js/main.47945ec0.chunk.js"
+  ]
+}
